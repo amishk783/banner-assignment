@@ -3,8 +3,8 @@ import { Banner } from "./components/Banner";
 import { BannerProps } from "./components/Banner";
 import Dashboard from "./Dashboard";
 
-const server = import.meta.env.SERVER_URL || "http://localhost:3001";
-
+const server = import.meta.env.VITE_SERVER_URL || "http://localhost:3001";
+console.log(server);
 export const Home = () => {
   const [bannerData, setBannerData] = useState<BannerProps>({
     status: "off",

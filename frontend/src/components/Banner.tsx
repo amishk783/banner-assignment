@@ -54,7 +54,7 @@ export const Banner: React.FC<BannerInterface> = ({
         </div>
         <h1 className="text-center py-4 font-bold text-6xl">{description}</h1>
 
-        <div className="flex items-center justify-between mt-5">
+        <div className="flex items-center justify-between mt-5 max-sm:flex-col gap-4">
           <h4 className="text-end text-gray-600">
             Timer: {formatTime(remainingTime)}
           </h4>

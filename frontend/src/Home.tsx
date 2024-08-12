@@ -48,7 +48,7 @@ export const Home = () => {
   };
   console.log(bannerData.timer);
   return (
-    <div>
+    <div className="">
       {bannerData.status == "on" && (
         <Banner {...bannerData} updateBannerData={updateBannerData} />
       )}

@@ -52,13 +52,13 @@ const Dashboard: React.FC<DashboardProps> = ({
   };
 
   return (
-    <div className="flex flex-col items-center justify-center p-5 m-5">
+    <div className="flex flex-col items-center justify-center p-5 m-5 max-sm:mx-5 max-sm:w-[90%]">
       <h2 className="text-center text-3xl font-semibold">Internal Dashboard</h2>
       <form
-        className="pt-10 w-1/3 flex flex-col items-center justify-center gap-10"
+        className="pt-10 w-1/3 flex flex-col items-center justify-center gap-10 max-sm:w-full"
         onSubmit={handleSubmit}
       >
-        <div className="flex flex-col gap-8">
+        <div className="w-full flex flex-col gap-8">
           <label className="flex items-center gap-2">
             Banner Visibility:
             <input

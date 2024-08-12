@@ -14,7 +14,7 @@ export const Banner: React.FC<BannerInterface> = ({
   description,
   timer,
   link,
-  status,
+
   updateBannerData,
 }) => {
   const [remainingTime, setRemainingTime] = useState(timer);
